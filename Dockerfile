@@ -1,8 +1,10 @@
 FROM node:9.11.1-alpine as builder
 ARG HOME_DIR=/home/node/karma.run-editor/
 
+COPY ./LICENSE $HOME_DIR
 COPY ./package.json $HOME_DIR
 COPY ./yarn.lock $HOME_DIR
+COPY ./.yarnclean $HOME_DIR
 
 WORKDIR $HOME_DIR
 RUN yarn install
