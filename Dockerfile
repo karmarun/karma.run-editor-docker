@@ -1,6 +1,12 @@
 FROM node:9.11.1-alpine as builder
 ARG HOME_DIR=/home/node/karma.run-editor/
 
+# Install build tools
+RUN apk add gcc g++ make --update-cache
+
+# Install libvips
+RUN apk add vips-dev fftw-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+
 COPY ./LICENSE $HOME_DIR
 COPY ./package.json $HOME_DIR
 COPY ./yarn.lock $HOME_DIR
