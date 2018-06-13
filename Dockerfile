@@ -1,10 +1,10 @@
-FROM node:9.11.1-alpine as builder
+FROM node:10-alpine as builder
 ARG HOME_DIR=/home/node/karma.run-editor/
 
 # Install build tools
 RUN apk add gcc g++ make --update-cache
 
-# Install libvips
+# Install libvips dev
 RUN apk add vips-dev fftw-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
 
 COPY ./LICENSE $HOME_DIR
@@ -16,9 +16,12 @@ WORKDIR $HOME_DIR
 RUN yarn install
 
 # Copy to final image
-FROM node:9.11.1-alpine
+FROM node:10-alpine
 ARG HOME_DIR=/home/node/karma.run-editor/
 COPY --from=builder $HOME_DIR $HOME_DIR
+
+# Install libvips
+RUN apk add vips --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
 
 RUN chown -R node:node $HOME_DIR
 WORKDIR $HOME_DIR
