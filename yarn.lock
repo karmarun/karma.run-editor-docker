@@ -2,25 +2,25 @@
 # yarn lockfile v1
 
 
-"@karma.run/editor-common@^0.12.0-beta.7":
-  version "0.12.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-common/-/editor-common-0.12.0-beta.8.tgz#93bab99d5c3f91a894d8c6770a3808563ada8485"
+"@karma.run/editor-common@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-common/-/editor-common-0.12.0.tgz#f01b49b2ccdb234a6d4df00ea06a6aff3f7f735a"
   dependencies:
     axios "^0.17.0"
     shortid "^2.2.8"
 
-"@karma.run/editor-media-common@^0.12.0-beta.5":
-  version "0.12.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-common/-/editor-media-common-0.12.0-beta.5.tgz#1e06675f6c394b47c03804ad7322adac1a77eccd"
+"@karma.run/editor-media-common@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-common/-/editor-media-common-0.12.0.tgz#ae0e4973934d5a5f3371e4749d03f43217713c5d"
   dependencies:
-    "@karma.run/editor-common" "^0.12.0-beta.7"
+    "@karma.run/editor-common" "^0.12.0"
 
-"@karma.run/editor-media-server@^0.12.0-beta.11":
-  version "0.12.0-beta.11"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.0-beta.11.tgz#9131d0dd0f6fdc4e367dc19491b0154d0753227e"
+"@karma.run/editor-media-server@^0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.3.tgz#6c2f1c463ce6693e4e09b9f26a5f68dd91320171"
   dependencies:
-    "@karma.run/editor-common" "^0.12.0-beta.7"
-    "@karma.run/editor-media-common" "^0.12.0-beta.5"
+    "@karma.run/editor-common" "^0.12.0"
+    "@karma.run/editor-media-common" "^0.12.0"
     busboy "^0.2.14"
     cloudinary "^1.11.0"
     mkdirp "^0.5.1"
@@ -28,21 +28,21 @@
     sharp "^0.20.3"
     shortid "^2.2.8"
 
-"@karma.run/editor-server@^0.12.0-beta.3":
-  version "0.12.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-server/-/editor-server-0.12.0-beta.3.tgz#211c0b3e5183ed871738fdee9411ed1616ec6176"
+"@karma.run/editor-server@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-server/-/editor-server-0.12.0.tgz#3d3667f8c33964a99a42d382600bdad328cffa10"
   dependencies:
     draft-js "^0.10.5"
     react "^16.3.0"
     react-datetime "^2.10.3"
     react-dom "^16.0.0"
 
-"@karma.run/editor@^0.12.0-beta.4":
-  version "0.12.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.0-beta.4.tgz#63cb38f67f2e5e88fa3837ac9271367c39f58403"
+"@karma.run/editor@^0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.4.tgz#8203bd382782a0acc854da21298f4103dd0df73b"
   dependencies:
-    "@karma.run/editor-media-server" "^0.12.0-beta.11"
-    "@karma.run/editor-server" "^0.12.0-beta.3"
+    "@karma.run/editor-media-server" "^0.12.3"
+    "@karma.run/editor-server" "^0.12.0"
     commander "^2.15.1"
     compression "^1.7.2"
     dotenv "^5.0.1"
