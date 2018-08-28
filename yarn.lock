@@ -15,9 +15,9 @@
   dependencies:
     "@karma.run/editor-common" "^0.12.0"
 
-"@karma.run/editor-media-server@^0.12.3":
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.3.tgz#6c2f1c463ce6693e4e09b9f26a5f68dd91320171"
+"@karma.run/editor-media-server@^0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.4.tgz#3a7766d7b49ca2db57d3304ffb524d36849ebd5e"
   dependencies:
     "@karma.run/editor-common" "^0.12.0"
     "@karma.run/editor-media-common" "^0.12.0"
@@ -37,11 +37,11 @@
     react-datetime "^2.10.3"
     react-dom "^16.0.0"
 
-"@karma.run/editor@^0.12.8":
-  version "0.12.8"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.8.tgz#d5120b1ebe5984bc7a6b94ddbeaf77979e148303"
+"@karma.run/editor@^0.12.9":
+  version "0.12.9"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.9.tgz#87943b701211489fe164524189f47e86dac10273"
   dependencies:
-    "@karma.run/editor-media-server" "^0.12.3"
+    "@karma.run/editor-media-server" "^0.12.4"
     "@karma.run/editor-server" "^0.12.0"
     commander "^2.15.1"
     compression "^1.7.2"
