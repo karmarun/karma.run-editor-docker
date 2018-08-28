@@ -37,9 +37,9 @@
     react-datetime "^2.10.3"
     react-dom "^16.0.0"
 
-"@karma.run/editor@^0.12.6":
-  version "0.12.6"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.6.tgz#a21de35033f2a48d20172efb7425c6ac66466a26"
+"@karma.run/editor@^0.12.8":
+  version "0.12.8"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.8.tgz#d5120b1ebe5984bc7a6b94ddbeaf77979e148303"
   dependencies:
     "@karma.run/editor-media-server" "^0.12.3"
     "@karma.run/editor-server" "^0.12.0"
