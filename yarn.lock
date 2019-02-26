@@ -15,9 +15,10 @@
   dependencies:
     "@karma.run/editor-common" "^0.12.0"
 
-"@karma.run/editor-media-server@^0.12.4":
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.4.tgz#3a7766d7b49ca2db57d3304ffb524d36849ebd5e"
+"@karma.run/editor-media-server@^0.12.5":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor-media-server/-/editor-media-server-0.12.5.tgz#2824c94f598404b628321506185d6b9e7df20e5b"
+  integrity sha512-w0bwzeChI3l1MAOuvUfrYJ7TM9pwc9rqBmM0bzg6rlGDjlJvSHzUN6i0njUheaHCYAQ+Dfo/LDXUYZMvvzyFaw==
   dependencies:
     "@karma.run/editor-common" "^0.12.0"
     "@karma.run/editor-media-common" "^0.12.0"
@@ -37,11 +38,12 @@
     react-datetime "^2.10.3"
     react-dom "^16.0.0"
 
-"@karma.run/editor@^0.12.11":
-  version "0.12.11"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.11.tgz#9ccc023c878b1b359e267090dfc40fb5c2d40848"
+"@karma.run/editor@^0.12.12":
+  version "0.12.12"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.12.tgz#34777be435e819fff12fcf9222af4c7b410a6288"
+  integrity sha512-FaK9R5Gn+B1zZNSTMAwkjeTVUAd8pEjC5O9lqGDUiqlWvepWQTOqSrD4NUDSp8jTak4aMCd5rOmHdDPfAK9pQQ==
   dependencies:
-    "@karma.run/editor-media-server" "^0.12.4"
+    "@karma.run/editor-media-server" "^0.12.5"
     "@karma.run/editor-server" "^0.12.0"
     commander "^2.15.1"
     compression "^1.7.2"
