@@ -38,10 +38,10 @@
     react-datetime "^2.10.3"
     react-dom "^16.0.0"
 
-"@karma.run/editor@^0.12.12":
-  version "0.12.12"
-  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.12.tgz#34777be435e819fff12fcf9222af4c7b410a6288"
-  integrity sha512-FaK9R5Gn+B1zZNSTMAwkjeTVUAd8pEjC5O9lqGDUiqlWvepWQTOqSrD4NUDSp8jTak4aMCd5rOmHdDPfAK9pQQ==
+"@karma.run/editor@^0.12.13":
+  version "0.12.13"
+  resolved "https://registry.yarnpkg.com/@karma.run/editor/-/editor-0.12.13.tgz#edaa0ebbc58a209a549eda905b925f01177d9a46"
+  integrity sha512-EFwaFwPhU8046xoQhSO500OY4GYa8espNRgIyjN63rLyAfE7URyx2LEvTGGy7ofUQcQZsegMgvjKZ+FBCf/1+Q==
   dependencies:
     "@karma.run/editor-media-server" "^0.12.5"
     "@karma.run/editor-server" "^0.12.0"

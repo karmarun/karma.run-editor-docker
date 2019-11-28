@@ -7,7 +7,7 @@ ARG LIBVIPS_SOURCE_TAR="vips-${LIBVIPS_VERSION}.tar.gz"
 ARG LIBVIPS_SOURCE_URL="https://github.com/libvips/libvips/releases/download/v${LIBVIPS_VERSION}/${LIBVIPS_SOURCE_TAR}"
 
 # Install build tools
-RUN apk add gcc g++ make --update-cache
+RUN apk add python gcc g++ make --update-cache
 
 # Install libvips dependencies
 RUN apk add libjpeg-turbo-dev libexif-dev lcms2-dev fftw-dev giflib-dev glib-dev libpng-dev \
